@@ -1,5 +1,6 @@
-greeting = input("Hello, possible pirate! What's the password?)
-if greeting in ["Arrr!"):
-	print("Go away, pirate.")
-elif
-print("Greetings, hater of pirates!")
+greeting = input("Hello, possible pirate! What's the password? ")  # Fixed unclosed string
+
+if greeting in ["Arrr!"]:  # Fixed list syntax
+    print("Go away, pirate.")
+else:  # Replaced the broken 'elif' with 'else'
+    print("Greetings, hater of pirates!")
